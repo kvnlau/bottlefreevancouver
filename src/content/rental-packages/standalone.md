@@ -1,8 +1,8 @@
 ---
 title: "Standalone system"
-date: 2021-08-29T00:00:00+10:00
+date: 2021-08-29T00:00:01+10:00
 draft: false
-image: "/images/team/peter-van-eijk-711986-unsplash.jpg"
+image: "/images/rental-packages/standalone.png"
 weight: 3
 ---
 

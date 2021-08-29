@@ -26,40 +26,19 @@ const RentalPackages = props => {
           </div>
         </div>
       </div>
-
-      <div className="container">
-        <div className="row">
-          {rentalPackages.filter(edge => (edge.node.frontmatter.promoted)).map(({ node }) => (
-            <div key={node.id} className="col-12 col-md-6 mb-2">
-              <div className="team team-summary team-summary-large">
-                {node.frontmatter.image && (
-                  <div className="team-image">
-                    <img alt={`photo of ${node.frontmatter.title}`} className="img-fluid mb-2" src={node.frontmatter.image} />
-                  </div>
-                )}
-                <div className="team-meta">
-                  <h2 className="team-name">{node.frontmatter.title}</h2>
-                  <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
-                  )}
-                </div>
-                <div className="team-content">
-                  <p>{node.excerpt}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
       
       <div className="container pb-4">
         <div className="row">
           {rentalPackages.map(edge => (
             <div key={edge.node.id} className="col-12 col-md-4 mb-1">
               <div className="card service service-teaser">
-                <div className="card-content">
-                  <h2>{edge.node.frontmatter.title}</h2>
+                <div className="card-content">          
+                  {edge.node.frontmatter.image && (
+                    <div className="card-content-image col-12 mb-2 align-items-end row">
+                      <img alt={`photo of ${edge.node.frontmatter.title}`} src={edge.node.frontmatter.image} />
+                    </div>
+                  )}
+                  <h2 className="order-2 order-sm-1">{edge.node.frontmatter.title}</h2>
                   <div dangerouslySetInnerHTML={{ __html: edge.node.html }}/>
                 </div>
               </div>
