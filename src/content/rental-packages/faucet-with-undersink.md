@@ -7,3 +7,14 @@ weight: 1
 ---
 
 Classic space-saving design, perfect for smaller offices with limited pantry space.
+<!-- excerptEnd -->
+
+#### Dimensions
+5cm (W) × 15cm (H)
+
+#### Water temperature
+Room temperature only
+
+#### Filter type
+2-stage sediment filter OR
+4-stage ultra-filtration system

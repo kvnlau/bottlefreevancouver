@@ -12,19 +12,17 @@ const RentalPackages = props => {
 
   return (
     <Layout bodyClass="page-teams">
-      <SEO title="Team" />
+      <SEO title="Rental packages" />
 
       <div className="intro">
         <div className="container">
           <div className="row justify-content-start">
-            <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+            <div className="col-12 col-md-5">
+              <h1 dangerouslySetInnerHTML={{ __html: intro.frontmatter.title }} />
+            </div>
+            <div className="col-12 col-md-7 position-relative">
               <div dangerouslySetInnerHTML={{ __html: intro.html }} />
             </div>
-            {intro.frontmatter.intro_image && (
-              <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-                <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} />
-              </div>
-            )}
           </div>
         </div>
       </div>
@@ -55,7 +53,7 @@ const RentalPackages = props => {
         </div>
       </div>
       
-      <div className="container pb-6">
+      <div className="container pb-4">
         <div className="row">
           {rentalPackages.map(edge => (
             <div key={edge.node.id} className="col-12 col-md-4 mb-1">
@@ -68,10 +66,11 @@ const RentalPackages = props => {
             </div>
           ))}
         </div>
-      </div>
-
-      <Features />
         <Call showButton />
+      </div>
+      
+      <Features showDetails />
+
     </Layout>
   );
 };

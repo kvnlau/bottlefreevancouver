@@ -47,6 +47,12 @@ module.exports = {
         ],
         display: 'swap'
       }
+    },
+    {
+      "resolve": 'gatsby-transformer-remark',
+      "options": {
+        "excerpt_separator": '<!-- excerptEnd -->'
+      }
     }
   ]
 };

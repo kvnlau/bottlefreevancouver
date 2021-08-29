@@ -7,3 +7,13 @@ weight: 3
 ---
 
 High-capacity ultra-filtration model, suitable for larger offices with many staff.
+<!-- excerptEnd -->
+
+#### Dimensions
+34cm (W) × 36cm (D) × 110cm (H)
+
+#### Water temperature
+Hot and cold water
+
+#### Filter type
+4-stage ultra-filtration system

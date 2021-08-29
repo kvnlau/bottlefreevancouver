@@ -7,3 +7,13 @@ weight: 2
 ---
 
 Countertop ultra-filtration model that produces bottled water-quality at a low fixed cost.
+<!-- excerptEnd -->
+
+#### Dimensions
+34cm (W) × 47cm (D) × 50cm (H)
+
+#### Water temperature
+Hot and cold water
+
+#### Filter type
+4-stage ultra-filtration system
