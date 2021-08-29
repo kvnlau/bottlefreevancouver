@@ -52,28 +52,23 @@ const RentalPackages = props => {
             </div>
           ))}
         </div>
-        <div className="row pt-6 pb-6">
-          {rentalPackages.filter(edge => (!edge.node.frontmatter.promoted)).map(({ node }) => (
-            <div key={node.id} className="col-12 col-md-6 mb-2">
-              <div className="team team-summary">
-                {node.frontmatter.image && (
-                  <div className="team-image">
-                    <img alt={`photo of ${node.frontmatter.title}`} className="img-fluid mb-2" src={node.frontmatter.image} />
-                  </div>
-                )}
-                <div className="team-meta">
-                  <h2 className="team-name">{node.frontmatter.title}</h2>
-                  <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
-                  )}
+      </div>
+      
+      <div className="container pb-6">
+        <div className="row">
+          {rentalPackages.map(edge => (
+            <div key={edge.node.id} className="col-12 col-md-4 mb-1">
+              <div className="card service service-teaser">
+                <div className="card-content">
+                  <h2>{edge.node.frontmatter.title}</h2>
+                  <div dangerouslySetInnerHTML={{ __html: edge.node.html }}/>
                 </div>
               </div>
             </div>
           ))}
         </div>
+        <Call showButton />
       </div>
-
     </Layout>
   );
 };
@@ -93,11 +88,9 @@ export const query = graphql`
           }
           frontmatter {
             title
-            promoted
             image
-            jobtitle
-            linkedinurl
           }
+          html
         }
       }
     }

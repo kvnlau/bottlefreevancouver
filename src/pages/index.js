@@ -8,7 +8,7 @@ import Call from '../components/Call';
 const Home = props => {
   const intro = props.data.intro;
   const site = props.data.site.siteMetadata;
-  const services = props.data.services.edges;
+  const rentalPackages = props.data.rentalPackages.edges;
   const features = props.data.features.edges;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
@@ -38,16 +38,16 @@ const Home = props => {
         </div>
       </div>
 
-      {services.length > 0 && (
+      {rentalPackages.length > 0 && (
         <div className="strip">
           <div className="container pt-6 pb-6 pb-md-10">
             <div className="row justify-content-start">
-              {services.map(({ node }) => (
+              {rentalPackages.map(({ node }) => (
                 <div key={node.id} className="col-12 col-md-4 mb-1">
                   <div className="service service-summary">
                     <div className="service-content">
                       <h2 className="service-title">
-                        <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+                        <Link to="/rental-packages/">{node.frontmatter.title}</Link>
                       </h2>
                       <p>{node.excerpt}</p>
                     </div>
@@ -57,7 +57,7 @@ const Home = props => {
             </div>
             <div className="row justify-content-center">
               <div className="col-auto">
-                <Link className="button button-primary" to="/services/">View All Services</Link>
+                <Link className="button button-primary" to="/rental-packages/">Compare rental packages</Link>
               </div>
             </div>
           </div>
@@ -91,8 +91,8 @@ const Home = props => {
 
 export const query = graphql`
   query {
-    services: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/services\/.*/" } }
+    rentalPackages: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/rental-packages\/.*/" } }
       sort: { fields: [frontmatter___weight], order: ASC }
       limit: 6
     ) {
