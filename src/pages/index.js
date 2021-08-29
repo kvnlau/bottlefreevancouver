@@ -18,29 +18,27 @@ const Home = props => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Bottlefree Vancouver supplies environmentally friendly and high quality drinking water to offices in Metro Vancouver."
         />
       </Helmet>
 
       <div className="intro">
         <div className="container">
           <div className="row justify-content-start">
-            <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
+            <div className="col-12 col-md-5 position-relative">
+              <h1>{intro.frontmatter.title_display}</h1>
               <Call showButton />
             </div>
-            {intro.frontmatter.intro_image && (
-              <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-                <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} />
-              </div>
-            )}
+            <div className="col-12 col-md-7">
+              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
+            </div>
           </div>
         </div>
       </div>
 
       {rentalPackages.length > 0 && (
         <div className="strip">
-          <div className="container pt-6 pb-6 pb-md-10">
+          <div className="container pt-6 pb-6">
             <div className="row justify-content-start">
               {rentalPackages.map(({ node }) => (
                 <div key={node.id} className="col-12 col-md-4 mb-1">
@@ -100,6 +98,7 @@ export const query = graphql`
           intro_image_absolute
           intro_image_hide_on_mobile
           title
+          title_display
         }
     }
     site {
