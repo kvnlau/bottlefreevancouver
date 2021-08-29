@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
+import Features from '../components/Features';
 
 const RentalPackages = props => {
   const rentalPackages = props.data.rentalPackages.edges;
@@ -67,8 +68,10 @@ const RentalPackages = props => {
             </div>
           ))}
         </div>
-        <Call showButton />
       </div>
+
+      <Features />
+        <Call showButton />
     </Layout>
   );
 };

@@ -4,12 +4,12 @@ import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
+import Features from '../components/Features';
 
 const Home = props => {
   const intro = props.data.intro;
   const site = props.data.site.siteMetadata;
   const rentalPackages = props.data.rentalPackages.edges;
-  const features = props.data.features.edges;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
   return (
@@ -64,27 +64,7 @@ const Home = props => {
         </div>
       )}
 
-      {features.length > 0 && (
-        <div className="strip strip-grey">
-          <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
-            <div className="row justify-content-center">
-              {features.map(({ node }) => (
-                <div key={node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-                  <div className="feature">
-                    {node.image && (
-                      <div className="feature-image">
-                        <img src={node.image} />
-                      </div>
-                    )}
-                    <h2 className="feature-title">{node.title}</h2>
-                    <div className="feature-content">{node.description}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
+      <Features />
     </Layout>
   );
 };
@@ -121,16 +101,6 @@ export const query = graphql`
           intro_image_hide_on_mobile
           title
         }
-    }
-    features: allFeaturesJson {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-        }
-      }
     }
     site {
       siteMetadata {
