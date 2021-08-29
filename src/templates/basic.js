@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
+import Call from '../components/Call'
 
 const Basic = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
@@ -15,6 +16,7 @@ const Basic = ({ data }) => {
             <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
           </div>
         </div>
+        <Call showButton />
       </div>
     </Layout>
   );
