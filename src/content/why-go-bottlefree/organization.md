@@ -1,12 +1,10 @@
 ---
 title: "Better for your organization"
-date: 2018-11-28T15:15:26+10:00
-featured: true
-draft: false
-weight: 3
+date: 2021-08-29T00:00:00+10:00
+featured: false
+weight: 2
 ---
 
-- No more bottles! Declutters valuable office space as there is no need to store any bulky water bottles
-- Increases productivity by reducing accounting and administration work
-- No more hassles! Removes the concern of delivery dates, water shortage, blocking of parking stalls, and all the other problems that come with traditional water coolers
-- Saves your company money, providing an unlimited supply of purified water for a fixed low monthly rental and service rate
+- Free up valuable office space as there is no need to store any bulky water bottles
+- Increase productivity by reducing accounting and administration work
+- Save your company money with an unlimited supply of purified water for a fixed low monthly rate

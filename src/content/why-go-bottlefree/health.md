@@ -1,10 +1,9 @@
 ---
 title: "Better for your health"
-date: 2018-11-18T12:33:46+10:00
-featured: true
+date: 2021-08-29T00:00:00+10:00
+featured: false
 weight: 1
 ---
 
-- Operates in a closed system (no direct contact with air), abolishing the chance for aerial bacteria, germs, or dust to contaminate your drinking water, giving you the cleanest purified water right into your cup
-- Eliminates the handling of heavy water bottles and the potential risk of injury
-- Reduces expense - producing water whose quality is superior to expensive single-use bottled water at only a fraction of the cost, why would you buy bottled water?
+- Operates in a closed system (no direct contact with air), removing the risk of aerial bacteria, germs, or dust to contaminate your drinking water
+- Eliminate the lifting of heavy water bottles and the potential risk of injury

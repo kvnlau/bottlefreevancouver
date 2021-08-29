@@ -1,9 +1,8 @@
 ---
 title: "Better for the environment"
-date: 2018-11-28T15:14:39+10:00
-featured: true
-draft: false
-weight: 2
+date: 2021-08-29T00:00:00+10:00
+featured: false
+weight: 3
 ---
 
 - Eliminates the need for bottled water delivery trucks, reducing greenhouse gas emissions
