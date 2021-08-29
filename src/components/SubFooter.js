@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Social from './Social';
 
 const SubFooter = props => {
   const data = useStaticQuery(graphql`
@@ -19,7 +18,7 @@ const SubFooter = props => {
         <div className="row">
           <div className="col-12">
             <div className="sub-footer-inner">
-              <Social />
+              <div className="copyright">(778) 919-0018 | <a href="mailto:info@bottlefreevancouver.com">info@bottlefreevancouver.com</a></div>
               <div className="copyright">
                 <span>{data.configJson.footer.copyright_text}</span>
                 {data.configJson.footer.copyright_link && (
