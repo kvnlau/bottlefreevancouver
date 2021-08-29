@@ -1,51 +1,15 @@
 ---
 path: '/about'
-title: 'About'
+title: 'About Us'
 date: 2018-02-22T17:01:34+07:00
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Since 1998, we have been providing professional water filtration services to businesses across the lower mainland. Our water coolers and filtration products are sourced professionally from manufacturers based in the USA, Japan, and Korea. Our vision is to __reduce the carbon footprint of Vancouver businesses by providing a smarter and simpler alternative to bottled water - the bottleless water cooler__. Not only is it more environmentally friendly and convenient, it will save you money too.
 
-## Ne verba patulosque numen vix libet
+We specialize in point-of-use water cooler rental for offices by providing exceptional services and extraodinary quality water. Choose from countertop cooler and full-size floor models. Every water cooler is equipped with high-quality filters to ensure the best drinking water using reverse-osmosis and ultra-filtration methods. Our technicians will advise on the best suitable specifications for your water dispenser depending on your usage volume and quality of water source. Getting hooked up a point-of-use water cooler is as easy as 1-2-3.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+1. Give us a call, and we will send a technician to your office for an on-site assessment for FREE.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+2. Our technician will install the water cooler at NO CHARGE (with accessible water source).
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+3. There is no step 3! Enjoy the purified water in your office everyday, and any day!

@@ -4,8 +4,8 @@ import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
 
-const Team = props => {
-  const team = props.data.team.edges;
+const RentalPackages = props => {
+  const rentalPackages = props.data.rentalPackages.edges;
   const { intro } = props.data;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
@@ -30,7 +30,7 @@ const Team = props => {
 
       <div className="container">
         <div className="row">
-          {team.filter(edge => (edge.node.frontmatter.promoted)).map(({ node }) => (
+          {rentalPackages.filter(edge => (edge.node.frontmatter.promoted)).map(({ node }) => (
             <div key={node.id} className="col-12 col-md-6 mb-2">
               <div className="team team-summary team-summary-large">
                 {node.frontmatter.image && (
@@ -53,7 +53,7 @@ const Team = props => {
           ))}
         </div>
         <div className="row pt-6 pb-6">
-          {team.filter(edge => (!edge.node.frontmatter.promoted)).map(({ node }) => (
+          {rentalPackages.filter(edge => (!edge.node.frontmatter.promoted)).map(({ node }) => (
             <div key={node.id} className="col-12 col-md-6 mb-2">
               <div className="team team-summary">
                 {node.frontmatter.image && (
@@ -79,9 +79,9 @@ const Team = props => {
 };
 
 export const query = graphql`
-  query TeamQuery {
-    team: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/team\/.*/" } }
+  query RentalPackagesQuery {
+    rentalPackages: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/rental-packages\/.*/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -101,7 +101,7 @@ export const query = graphql`
         }
       }
     }
-    intro: markdownRemark(fileAbsolutePath: {regex: "/(team.md)/"}) {
+    intro: markdownRemark(fileAbsolutePath: {regex: "/(rental-packages.md)/"}) {
       html
       frontmatter {
         image
@@ -114,4 +114,4 @@ export const query = graphql`
   }
 `;
 
-export default Team;
+export default RentalPackages;

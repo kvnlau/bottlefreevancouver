@@ -2,8 +2,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif Theme',
-    description: 'my theme'
+    title: 'Bottlefree Vancouver',
+    description: 'Bottlefree Vancouver | Reducing the carbon footprint of Vancouver businesses by providing a simpler, smarter alternative to bottled water'
   },
   plugins: [
     'gatsby-plugin-sass',

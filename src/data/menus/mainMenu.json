@@ -1,12 +1,12 @@
 [
     {
-        "name": "Services",
-        "url": "/services/",
+        "name": "Why go Bottlefree",
+        "url": "/why-go-bottlefree/",
         "weight": 2
     },
     {
-        "name": "Team",
-        "url": "/team/",
+        "name": "Rental packages",
+        "url": "/rental-packages/",
         "weight": 3
     },
     {

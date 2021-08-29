@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "/images/features/noun_branding_1885335.svg"
+    "title": "Free consultation and installation",
+    "description": "New clients receive an obligation-free consultation and free standard installation.",
+    "image": ""
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "/images/features/noun_The Process_1885341.svg"
+    "title": "All-inclusive service package",
+    "description": "Free cartridge changes, repairs and servicing with a 24-hour on call service",
+    "image": ""
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/images/features/noun_3d modeling_1885342.svg"
+    "title": "Two-month no obligation free trial",
+    "description": "All packages include a two-month free trial, and free removal if you are not satisfied with our services.",
+    "image": ""
   }
 ]
