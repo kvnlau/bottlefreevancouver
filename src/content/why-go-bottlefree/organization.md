@@ -1,6 +1,6 @@
 ---
 title: "Better for your organization"
-date: 2021-08-29T00:00:00+10:00
+date: 2021-08-29T00:00:02+10:00
 featured: false
 weight: 2
 ---

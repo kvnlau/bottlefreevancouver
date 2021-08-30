@@ -17,12 +17,25 @@ const Features = props => {
     }
   `);
   const features = data.features.edges;
-  console.log(features)
   return (
     <>
       {features.length > 0 && (
         <div className="strip strip-grey">
-          <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
+          <div className="container pt-6 pb-6">
+          {props.showDetails && (
+              <div className="">
+              <h2>Our all-inclusive service package comes with all cooler rentals</h2>
+              <ul className="features-details justify-content-start pt-2 pb-2">
+                <li><em>FREE</em> initial feasibility visit</li>
+                <li><em>FREE</em> standard installation</li>
+                <li><em>FREE</em> cartridge changes</li>
+                <li>Semi-annual equipment inspection and servicing</li>
+                <li>Leak detector with automatic shut-off mechanism</li>
+                <li>Free relocation of equipment to a new location</li>
+                <li><em>24-hour on call service</em></li>
+              </ul>
+              </div>
+            )}
             <div className="row justify-content-center">
               {features.map(({ node }) => (
                 <div key={node.id} className="col-12 col-md-6 col-lg-4 mb-2">
@@ -38,9 +51,11 @@ const Features = props => {
                 </div>
               ))}
             </div>
+            
           </div>
         </div>
       )}
+      
     </>
   )
 }

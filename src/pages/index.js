@@ -25,7 +25,7 @@ const Home = props => {
       <div className="intro">
         <div className="container">
           <div className="row justify-content-start">
-            <div className="col-12 col-md-5 position-relative">
+            <div className="col-12 col-md-5 mb-2 position-relative">
               <h1>{intro.frontmatter.title_display}</h1>
               <Call showButton />
             </div>

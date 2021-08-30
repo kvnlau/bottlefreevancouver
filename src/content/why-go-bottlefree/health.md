@@ -1,6 +1,6 @@
 ---
-title: "Better for your health"
-date: 2021-08-29T00:00:00+10:00
+title: "Better for your wellbeing"
+date: 2021-08-29T00:00:01+10:00
 featured: false
 weight: 1
 ---
