@@ -5,6 +5,6 @@ featured: false
 weight: 3
 ---
 
-- Eliminates the need for bottled water delivery trucks, reducing greenhouse gas emissions
-- Reduces energy consumption in producing, recycling, and reproducing plastic bottles
-- Decreases overall plastic bottle waste
+- Eliminate the need for bottled water delivery, reducing greenhouse gas emissions
+- Reduce energy consumption in producing, recycling, and reproducing plastic bottles
+- Decrease overall plastic bottle waste
